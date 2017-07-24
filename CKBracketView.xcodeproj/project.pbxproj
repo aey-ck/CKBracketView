@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1405171F2631EC001E7D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405161F2631EC001E7D44 /* AppDelegate.swift */; };
+		DA1405191F2631EC001E7D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405181F2631EC001E7D44 /* ViewController.swift */; };
+		DA14051C1F2631EC001E7D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14051A1F2631EC001E7D44 /* Main.storyboard */; };
+		DA14051E1F2631EC001E7D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14051D1F2631EC001E7D44 /* Assets.xcassets */; };
+		DA1405211F2631EC001E7D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14051F1F2631EC001E7D44 /* LaunchScreen.storyboard */; };
+		DA14052C1F2631EC001E7D44 /* CKBracketViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14052B1F2631EC001E7D44 /* CKBracketViewTests.swift */; };
+		DA1405371F2631EC001E7D44 /* CKBracketViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405361F2631EC001E7D44 /* CKBracketViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1405281F2631EC001E7D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA14050B1F2631EC001E7D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1405121F2631EC001E7D44;
+			remoteInfo = CKBracketView;
+		};
+		DA1405331F2631EC001E7D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA14050B1F2631EC001E7D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1405121F2631EC001E7D44;
+			remoteInfo = CKBracketView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA1405131F2631EC001E7D44 /* CKBracketView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKBracketView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1405161F2631EC001E7D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA1405181F2631EC001E7D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA14051B1F2631EC001E7D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA14051D1F2631EC001E7D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1405201F2631EC001E7D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1405221F2631EC001E7D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1405271F2631EC001E7D44 /* CKBracketViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKBracketViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14052B1F2631EC001E7D44 /* CKBracketViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKBracketViewTests.swift; sourceTree = "<group>"; };
+		DA14052D1F2631EC001E7D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1405321F2631EC001E7D44 /* CKBracketViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKBracketViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1405361F2631EC001E7D44 /* CKBracketViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKBracketViewUITests.swift; sourceTree = "<group>"; };
+		DA1405381F2631EC001E7D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1405101F2631EC001E7D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1405241F2631EC001E7D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14052F1F2631EC001E7D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA14050A1F2631EC001E7D44 = {
+			isa = PBXGroup;
+			children = (
+				DA1405151F2631EC001E7D44 /* CKBracketView */,
+				DA14052A1F2631EC001E7D44 /* CKBracketViewTests */,
+				DA1405351F2631EC001E7D44 /* CKBracketViewUITests */,
+				DA1405141F2631EC001E7D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1405141F2631EC001E7D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1405131F2631EC001E7D44 /* CKBracketView.app */,
+				DA1405271F2631EC001E7D44 /* CKBracketViewTests.xctest */,
+				DA1405321F2631EC001E7D44 /* CKBracketViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1405151F2631EC001E7D44 /* CKBracketView */ = {
+			isa = PBXGroup;
+			children = (
+				DA1405161F2631EC001E7D44 /* AppDelegate.swift */,
+				DA1405181F2631EC001E7D44 /* ViewController.swift */,
+				DA14051A1F2631EC001E7D44 /* Main.storyboard */,
+				DA14051D1F2631EC001E7D44 /* Assets.xcassets */,
+				DA14051F1F2631EC001E7D44 /* LaunchScreen.storyboard */,
+				DA1405221F2631EC001E7D44 /* Info.plist */,
+			);
+			path = CKBracketView;
+			sourceTree = "<group>";
+		};
+		DA14052A1F2631EC001E7D44 /* CKBracketViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA14052B1F2631EC001E7D44 /* CKBracketViewTests.swift */,
+				DA14052D1F2631EC001E7D44 /* Info.plist */,
+			);
+			path = CKBracketViewTests;
+			sourceTree = "<group>";
+		};
+		DA1405351F2631EC001E7D44 /* CKBracketViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1405361F2631EC001E7D44 /* CKBracketViewUITests.swift */,
+				DA1405381F2631EC001E7D44 /* Info.plist */,
+			);
+			path = CKBracketViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1405121F2631EC001E7D44 /* CKBracketView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14053B1F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketView" */;
+			buildPhases = (
+				DA14050F1F2631EC001E7D44 /* Sources */,
+				DA1405101F2631EC001E7D44 /* Frameworks */,
+				DA1405111F2631EC001E7D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKBracketView;
+			productName = CKBracketView;
+			productReference = DA1405131F2631EC001E7D44 /* CKBracketView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1405261F2631EC001E7D44 /* CKBracketViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14053E1F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketViewTests" */;
+			buildPhases = (
+				DA1405231F2631EC001E7D44 /* Sources */,
+				DA1405241F2631EC001E7D44 /* Frameworks */,
+				DA1405251F2631EC001E7D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1405291F2631EC001E7D44 /* PBXTargetDependency */,
+			);
+			name = CKBracketViewTests;
+			productName = CKBracketViewTests;
+			productReference = DA1405271F2631EC001E7D44 /* CKBracketViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1405311F2631EC001E7D44 /* CKBracketViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1405411F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketViewUITests" */;
+			buildPhases = (
+				DA14052E1F2631EC001E7D44 /* Sources */,
+				DA14052F1F2631EC001E7D44 /* Frameworks */,
+				DA1405301F2631EC001E7D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1405341F2631EC001E7D44 /* PBXTargetDependency */,
+			);
+			name = CKBracketViewUITests;
+			productName = CKBracketViewUITests;
+			productReference = DA1405321F2631EC001E7D44 /* CKBracketViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA14050B1F2631EC001E7D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Akhil Ck";
+				TargetAttributes = {
+					DA1405121F2631EC001E7D44 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DA1405261F2631EC001E7D44 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1405121F2631EC001E7D44;
+					};
+					DA1405311F2631EC001E7D44 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1405121F2631EC001E7D44;
+					};
+				};
+			};
+			buildConfigurationList = DA14050E1F2631EC001E7D44 /* Build configuration list for PBXProject "CKBracketView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA14050A1F2631EC001E7D44;
+			productRefGroup = DA1405141F2631EC001E7D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1405121F2631EC001E7D44 /* CKBracketView */,
+				DA1405261F2631EC001E7D44 /* CKBracketViewTests */,
+				DA1405311F2631EC001E7D44 /* CKBracketViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1405111F2631EC001E7D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1405211F2631EC001E7D44 /* LaunchScreen.storyboard in Resources */,
+				DA14051E1F2631EC001E7D44 /* Assets.xcassets in Resources */,
+				DA14051C1F2631EC001E7D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1405251F2631EC001E7D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1405301F2631EC001E7D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA14050F1F2631EC001E7D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1405191F2631EC001E7D44 /* ViewController.swift in Sources */,
+				DA1405171F2631EC001E7D44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1405231F2631EC001E7D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA14052C1F2631EC001E7D44 /* CKBracketViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14052E1F2631EC001E7D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1405371F2631EC001E7D44 /* CKBracketViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1405291F2631EC001E7D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1405121F2631EC001E7D44 /* CKBracketView */;
+			targetProxy = DA1405281F2631EC001E7D44 /* PBXContainerItemProxy */;
+		};
+		DA1405341F2631EC001E7D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1405121F2631EC001E7D44 /* CKBracketView */;
+			targetProxy = DA1405331F2631EC001E7D44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA14051A1F2631EC001E7D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14051B1F2631EC001E7D44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA14051F1F2631EC001E7D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1405201F2631EC001E7D44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1405391F2631EC001E7D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA14053A1F2631EC001E7D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA14053C1F2631EC001E7D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKBracketView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKBracketView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA14053D1F2631EC001E7D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKBracketView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKBracketView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA14053F1F2631EC001E7D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CKBracketViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKBracketViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKBracketView.app/CKBracketView";
+			};
+			name = Debug;
+		};
+		DA1405401F2631EC001E7D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CKBracketViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKBracketViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKBracketView.app/CKBracketView";
+			};
+			name = Release;
+		};
+		DA1405421F2631EC001E7D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CKBracketViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKBracketViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CKBracketView;
+			};
+			name = Debug;
+		};
+		DA1405431F2631EC001E7D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CKBracketViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKBracketViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CKBracketView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA14050E1F2631EC001E7D44 /* Build configuration list for PBXProject "CKBracketView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1405391F2631EC001E7D44 /* Debug */,
+				DA14053A1F2631EC001E7D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14053B1F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14053C1F2631EC001E7D44 /* Debug */,
+				DA14053D1F2631EC001E7D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA14053E1F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14053F1F2631EC001E7D44 /* Debug */,
+				DA1405401F2631EC001E7D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA1405411F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1405421F2631EC001E7D44 /* Debug */,
+				DA1405431F2631EC001E7D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA14050B1F2631EC001E7D44 /* Project object */;
+}
