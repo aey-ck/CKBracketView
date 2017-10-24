@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F65EFF01F9FCA1B00F28E1E /* bracketview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F65EFEF1F9FCA1B00F28E1E /* bracketview.gif */; };
 		6FE706E31F9FB645005059B4 /* CKBracketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE706E21F9FB645005059B4 /* CKBracketCell.xib */; };
 		DA1405171F2631EC001E7D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405161F2631EC001E7D44 /* AppDelegate.swift */; };
 		DA14051C1F2631EC001E7D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14051A1F2631EC001E7D44 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F65EFEF1F9FCA1B00F28E1E /* bracketview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bracketview.gif; sourceTree = "<group>"; };
 		6FE706E21F9FB645005059B4 /* CKBracketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKBracketCell.xib; sourceTree = "<group>"; };
 		DA1405131F2631EC001E7D44 /* CKBracketView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKBracketView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1405161F2631EC001E7D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F65EFEE1F9FCA0500F28E1E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6F65EFEF1F9FCA1B00F28E1E /* bracketview.gif */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		DA14050A1F2631EC001E7D44 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		DA1405151F2631EC001E7D44 /* CKBracketView */ = {
 			isa = PBXGroup;
 			children = (
+				6F65EFEE1F9FCA0500F28E1E /* Assets */,
 				DA1405441F263205001E7D44 /* ViewController */,
 				DA1405161F2631EC001E7D44 /* AppDelegate.swift */,
 				DA14051A1F2631EC001E7D44 /* Main.storyboard */,
@@ -250,6 +261,7 @@
 				6FE706E31F9FB645005059B4 /* CKBracketCell.xib in Resources */,
 				DA14051E1F2631EC001E7D44 /* Assets.xcassets in Resources */,
 				DA14051C1F2631EC001E7D44 /* Main.storyboard in Resources */,
+				6F65EFF01F9FCA1B00F28E1E /* bracketview.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

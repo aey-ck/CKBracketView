@@ -114,7 +114,7 @@ class CKBracketViewController: UIViewController,UITableViewDataSource,UITableVie
         let cell = tableView.dequeueReusableCell(withIdentifier: "CKBracketCell", for: indexPath) as! CKBracketCell
      //cell.contentView.backgroundColor = .clear
         cell.backgroundColor = .clear
-        cell.title.text = "Round - #\(indexPath.row)"
+        cell.title.text = "Round - #\(indexPath.row + 1)"
         cell.selectionStyle = .none
         return cell
     }
