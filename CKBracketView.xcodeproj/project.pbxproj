@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FE706E31F9FB645005059B4 /* CKBracketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE706E21F9FB645005059B4 /* CKBracketCell.xib */; };
 		DA1405171F2631EC001E7D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405161F2631EC001E7D44 /* AppDelegate.swift */; };
 		DA14051C1F2631EC001E7D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14051A1F2631EC001E7D44 /* Main.storyboard */; };
 		DA14051E1F2631EC001E7D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14051D1F2631EC001E7D44 /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		DA14052C1F2631EC001E7D44 /* CKBracketViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14052B1F2631EC001E7D44 /* CKBracketViewTests.swift */; };
 		DA1405371F2631EC001E7D44 /* CKBracketViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405361F2631EC001E7D44 /* CKBracketViewUITests.swift */; };
 		DA1405481F263259001E7D44 /* CKBracketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405451F263259001E7D44 /* CKBracketCell.swift */; };
-		DA1405491F263259001E7D44 /* CKBracketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1405461F263259001E7D44 /* CKBracketCell.xib */; };
 		DA14054A1F263259001E7D44 /* CKBracketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1405471F263259001E7D44 /* CKBracketViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FE706E21F9FB645005059B4 /* CKBracketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKBracketCell.xib; sourceTree = "<group>"; };
 		DA1405131F2631EC001E7D44 /* CKBracketView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKBracketView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1405161F2631EC001E7D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA14051B1F2631EC001E7D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		DA1405361F2631EC001E7D44 /* CKBracketViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKBracketViewUITests.swift; sourceTree = "<group>"; };
 		DA1405381F2631EC001E7D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA1405451F263259001E7D44 /* CKBracketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKBracketCell.swift; sourceTree = "<group>"; };
-		DA1405461F263259001E7D44 /* CKBracketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKBracketCell.xib; sourceTree = "<group>"; };
 		DA1405471F263259001E7D44 /* CKBracketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKBracketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +132,7 @@
 		DA1405441F263205001E7D44 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DA1405461F263259001E7D44 /* CKBracketCell.xib */,
+				6FE706E21F9FB645005059B4 /* CKBracketCell.xib */,
 				DA1405471F263259001E7D44 /* CKBracketViewController.swift */,
 				DA1405451F263259001E7D44 /* CKBracketCell.swift */,
 			);
@@ -247,8 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1405211F2631EC001E7D44 /* LaunchScreen.storyboard in Resources */,
+				6FE706E31F9FB645005059B4 /* CKBracketCell.xib in Resources */,
 				DA14051E1F2631EC001E7D44 /* Assets.xcassets in Resources */,
-				DA1405491F263259001E7D44 /* CKBracketCell.xib in Resources */,
 				DA14051C1F2631EC001E7D44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +523,7 @@
 				DA14053D1F2631EC001E7D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA14053E1F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketViewTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +532,7 @@
 				DA1405401F2631EC001E7D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1405411F2631EC001E7D44 /* Build configuration list for PBXNativeTarget "CKBracketViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +541,7 @@
 				DA1405431F2631EC001E7D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -41,8 +41,8 @@ class CKBracketViewController: UIViewController,UITableViewDataSource,UITableVie
     //var didViewLoad = false
     
     
-    var cellHeight:CGFloat = 190
-    let shrinkedCellHeight:CGFloat = 95
+    var cellHeight:CGFloat = 130
+    let shrinkedCellHeight:CGFloat = 65
     
     var gest:UIPanGestureRecognizer?   
     
@@ -62,6 +62,8 @@ class CKBracketViewController: UIViewController,UITableViewDataSource,UITableVie
         gest = UIPanGestureRecognizer(target: self, action: #selector(self.panGestureHandler(panGesture:)))
         gest?.minimumNumberOfTouches = 1
         self.contentView.addGestureRecognizer(gest!)
+     contentView.backgroundColor = .clear
+     
         
     }
     
@@ -73,7 +75,8 @@ class CKBracketViewController: UIViewController,UITableViewDataSource,UITableVie
             let table = UITableView()
             table.frame = CGRect(x: tableViewX, y: tableViewY, width: tableViewW, height: tableViewH)
             tableViewX += tableViewW
-            
+            table.backgroundColor = .clear
+
             table.delegate = self
             table.dataSource = self
             table.register(UINib(nibName: "CKBracketCell", bundle: nil), forCellReuseIdentifier: "CKBracketCell")
@@ -109,7 +112,9 @@ class CKBracketViewController: UIViewController,UITableViewDataSource,UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "CKBracketCell", for: indexPath) as! CKBracketCell
-        cell.title.text = "Match Name"
+     //cell.contentView.backgroundColor = .clear
+        cell.backgroundColor = .clear
+        cell.title.text = "Round - #\(indexPath.row)"
         cell.selectionStyle = .none
         return cell
     }
